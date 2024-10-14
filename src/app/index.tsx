@@ -20,7 +20,7 @@ export default function IndexScreen() {
 			Sentry.captureException(error)
 		 }
 	   }
-	   //error()	
+	   error()	
        fetchResult()
 	}, [])
 
