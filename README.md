@@ -1,14 +1,14 @@
 # App usuarios Expo
 
-Este es un proyecto desarrollado en expo react native que se conecta a la api rest jsonplaceholder para obtener la respuesta de un listado de usuarios.
+Es un proyecto desarrollado en Expo React Native que se conecta a la api rest jsonplaceholder para obtener la respuesta de un listado de usuarios.
 
-Resolución de los problemas técnicos en el desarrollo de la app de usuarios.
+## Resolución de los problemas técnicos en el desarrollo de la app de usuarios.
 
-1.-Primer problema técnico resuelto
+1. Primer problema técnico resuelto
 
 El primer caso resuelto fue que configure un manejador de estado global para que cuando se obtenga la respuesta de la petición get a la api rest jsonplaceholder, la información se guarde en memoria y puede ser compartido ese estado por las distintas pantallas que componen el flujo de las rutas de la app (inicio, detalle, búsqueda). Eso evita ser llamadas innecesarias a la API Rest y optimizar los recursos de la app.
 
-2.-Segundo problema técnico resuelto
+2. Segundo problema técnico resuelto
 
 El segundo problema técnico resuelto es que cuando la aplicación se ejecuta en la pantalla de inicio, llega a la línea donde se intenta acceder a una propiedad de un objeto undefined. Se lanza un error. Como hemos integrado Sentry, este error se captura y se reporta automáticamente al proyecto en Sentry.
 
@@ -27,7 +27,7 @@ El segundo problema técnico resuelto es que cuando la aplicación se ejecuta en
     npx expo start
    ```
 
-Librerias configuradas en la app.
+## Librerias configuradas en la app.
 
 - [Expo](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
@@ -39,17 +39,17 @@ Librerias configuradas en la app.
 - [@sentry/react-native](https://docs.sentry.io/platforms/react-native/manual-setup/expo/#manual-install)
 - [expo-router](https://docs.expo.dev/router/installation/#quick-start)
 
-Pantallas  de la app
+## Pantallas de la app
 
-1.- Inicio Listado de usuarios
+1. Inicio listado de usuarios
 
 ![Alt text](https://github.com/elagosq/app-users/blob/main/pantallas/inicio.png "Home")
 
-2.- Detalle de usuario seleccionado
+2. Detalle de usuario seleccionado
 
 ![Alt text](https://github.com/elagosq/app-users/blob/main/pantallas/detalle.png "Detalle")
 
-3.- Pantalla para realizar una busqueda de usuario seleccionado
+3. Pantalla para realizar una búsqueda de un usuario
 
 ![Alt text](https://github.com/elagosq/app-users/blob/main/pantallas/search.png "Buscar")
 
