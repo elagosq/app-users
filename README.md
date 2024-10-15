@@ -49,7 +49,7 @@ El segundo requerimiento desarrollado es que cuando la aplicación se ejecuta en
 
 ![Alt text](https://github.com/elagosq/app-users/blob/main/pantallas/detalle.png "Detalle")
 
-3. Pantalla para realizar una búsqueda de un usuario
+3. Pantalla para realizar una búsqueda de un usuario por su nombre
 
 ![Alt text](https://github.com/elagosq/app-users/blob/main/pantallas/search.png "Buscar")
 
