@@ -6,11 +6,11 @@ Es un proyecto desarrollado en Expo React Native que se conecta a la api rest js
 
 1. Primer problema técnico resuelto
 
-El primer caso resuelto fue que configure un manejador de estado global para que cuando se obtenga la respuesta de la petición get a la api rest jsonplaceholder, la información se guarde en memoria y puede ser compartido ese estado por las distintas pantallas que componen el flujo de las rutas de la app (inicio, detalle, búsqueda). Eso evita ser llamadas innecesarias a la API Rest y optimizar los recursos de la app.
+El primer requerimiento desarrollado es un manejador de estado global para que cuando se obtenga la respuesta de la petición get a la API REST jsonplaceholder, la información del listado de usuarios se guarde en memoria y pueda ser compartida la información del estado por las distintas pantallas de la app(inicio, detalle, búsqueda). Eso evita ser llamadas innecesarias a la API Rest y optimizar los recursos de la app.
 
 2. Segundo problema técnico resuelto
 
-El segundo problema técnico resuelto es que cuando la aplicación se ejecuta en la pantalla de inicio, llega a la línea donde se intenta acceder a una propiedad de un objeto undefined. Se lanza un error. Como hemos integrado Sentry, este error se captura y se reporta automáticamente al proyecto en Sentry.
+El segundo requerimiento desarrollado es que cuando la aplicación se ejecuta en la pantalla de inicio, llega a la línea donde se intenta acceder a una propiedad de un objeto undefined. Se lanza un error. Como hemos integrado Sentry, este error se captura y se reporta automáticamente al proyecto en Sentry.
 
 
 ## Empezar
