@@ -9,12 +9,12 @@ type UserStore =  {
 }
 
 export const useUserStore = create<UserStore>((set) => ({
-   result:[],
-   loading: false,
-   fetchUsers: async () => {
+  result:[],
+  loading: false,
+  fetchUsers: async () => {
 	set(() => ({
      loading: true
-    }))
+  }))
 	const result = await getUsers()
 	set(() => ({
       result,
